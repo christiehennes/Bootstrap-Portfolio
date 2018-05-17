@@ -10,12 +10,21 @@ nav{
     padding: 0;
 }
 
+.navbar-brand{
+    /* color: white; */
+    background-color: #4aaaa5;
+}
+
 .nav-link{
     color: #666666;
 }
 
 .content-divider{
     padding: 0px 10px 0px 10px;
+}
+
+.body-content{
+    margin-bottom: 20px;
 }
 
 .content-wrapper{
@@ -63,4 +72,7 @@ nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+/* Font Styling */
+.header-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
