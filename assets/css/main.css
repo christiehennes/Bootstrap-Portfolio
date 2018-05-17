@@ -73,6 +73,10 @@ nav{
 }
 
 /* Font Styling */
-.header-text {
+.header-text, .content-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content-title{
+    color: #4aaaa5;
 }
