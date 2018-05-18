@@ -14,21 +14,24 @@
     
     
 <!-- Menu -->
-<nav class="navbar navbar-light navbar-static-top bg-white border-bottom p-0">
+<nav class="navbar navbar-expand-sm navbar-light navbar-static-top bg-white border-bottom p-0">
     <div class="container">
         <a class="navbar-brand p-3 text-white header-text" href="#">Christie's Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         
-        <div class="nav-bar-link ">
-            <ul class="nav mr-auto flex-row"> 
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto"> 
             <li class="nav-item active">
                 <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                    <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                        <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
-                    </li>
+                <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+            </li>
             
             </ul> 
         </div>    
@@ -37,81 +40,71 @@
 
 
 <!-- Body Content-->
-<div class="container">
-
-        <div class="row">
-            <div class="col col-md-8 content-wrapper border bg-white">
-                <div class="row content-title mt-1.5">
-                    <h4>Portfolio</h4>
-                </div>
-                <hr />
-                <div class="portfolio-items-container">
-
-                    <div class="portfolio-item-wrapper">
-                        <!-- <div class="portfolio-item-image-container"> -->
-                            <img class="portfolio-item-image" src="./assets/images/stock.jpg">
-                        <!-- </div> -->
-    
-                        <div class="portfolio-item-title-wrapper">
-                            <div class="portfolio-text">Project 1</div>
-                        </div>
-    
-                    </div>
-    
-                    <div class="portfolio-item-wrapper">
-                        <div class="portfolio-item-image-container">
-                            <img class="portfolio-item-image" src="./assets/images/stock.jpg">
-                        </div>
-                        <div class="portfolio-item-title-wrapper">
-                            <div class="portfolio-text">Project 2</div>
-                        </div>
-                    </div>
-    
-                    <div class="portfolio-item-wrapper">
-                        <div class="portfolio-item-image-container">
-                            <img class="portfolio-item-image" src="./assets/images/stock.jpg">
-                        </div>
-                        <div class="portfolio-item-title-wrapper">
-                            <div class="portfolio-text">Project 3</div>
-                        </div>
-                    </div>
-    
-                    <div class="portfolio-item-wrapper">
-                        <div class="portfolio-item-image-container">
-                            <img class="portfolio-item-image" src="./assets/images/stock.jpg">
-                        </div>
-                        <div class="portfolio-item-title-wrapper">
-                            <div class="portfolio-text">Project 4</div>
-                        </div>
-                    </div>
-    
-                    <div class="portfolio-item-wrapper">
-                        <div class="portfolio-item-image-container">
-                            <img class="portfolio-item-image" src="./assets/images/stock.jpg">
-                        </div>
-                        <div class="portfolio-item-title-wrapper">
-                            <div class="portfolio-text">Project 5</div>
-                        </div>
-                    </div>
-    
-                    <div class="portfolio-item-wrapper">
-                        <div class="portfolio-item-image-container">
-                            <img class="portfolio-item-image" src="./assets/images/stock.jpg">
-                        </div>
-                        <div class="portfolio-item-title-wrapper">
-                            <div class="portfolio-text">Project 6</div>
-                        </div>
-                    </div>
-    
-                </div>
-
-
+<div class="container body-container">
+    <div class="row">
+        <div class="col col-md-8 content-wrapper border bg-white">
+            <div class="row content-title mt-1.5">
+                <h4>Portfolio</h4>
             </div>
+            <hr />
+            <div class="portfolio-items-container">
 
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-item-image-container">
+                        <img class="portfolio-item-image" src="./assets/images/stock.jpg">
+                    </div>
+                    <div class="portfolio-item-title-wrapper">
+                        <div class="portfolio-text">Project 1</div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-item-image-container">
+                        <img class="portfolio-item-image" src="./assets/images/stock.jpg">
+                    </div>
+                    <div class="portfolio-item-title-wrapper">
+                        <div class="portfolio-text">Project 2</div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-item-image-container">
+                        <img class="portfolio-item-image" src="./assets/images/stock.jpg">
+                    </div>
+                    <div class="portfolio-item-title-wrapper">
+                        <div class="portfolio-text">Project 3</div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-item-image-container">
+                        <img class="portfolio-item-image" src="./assets/images/stock.jpg">
+                    </div>
+                    <div class="portfolio-item-title-wrapper">
+                        <div class="portfolio-text">Project 4</div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-item-image-container">
+                        <img class="portfolio-item-image" src="./assets/images/stock.jpg">
+                    </div>
+                    <div class="portfolio-item-title-wrapper">
+                        <div class="portfolio-text">Project 5</div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-item-image-container">
+                        <img class="portfolio-item-image" src="./assets/images/stock.jpg">
+                    </div>
+                    <div class="portfolio-item-title-wrapper">
+                        <div class="portfolio-text">Project 6</div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-
+    </div>
 </div>
 
 
@@ -119,9 +112,14 @@
 
 <ul class="nav justify-content-center bg-secondary fixed-bottom footer-nav">
     <li class="nav-item">
-    <a class="nav-link text-white footer-nav-item" >Copyright &copy;</a>
+        <a class="nav-link text-white footer-nav-item" >Copyright &copy;</a>
     </li>
 </ul>
+
+<!-- JS for Menu -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 
