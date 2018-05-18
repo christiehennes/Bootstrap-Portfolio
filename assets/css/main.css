@@ -23,6 +23,10 @@ nav{
     padding: 0px 10px 0px 10px;
 }
 
+.body-container{
+    margin-bottom: 10vh;
+}
+
 .body-content{
     margin-bottom: 20px;
 }
@@ -72,6 +76,15 @@ nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.btn {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.footer-nav {
+    padding: 8px;
+}
+
 /* Font Styling */
 .header-text, .content-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -79,4 +92,8 @@ nav{
 
 .content-title{
     color: #4aaaa5;
+}
+
+.footer-nav-item{
+    font-size: 10px;
 }
